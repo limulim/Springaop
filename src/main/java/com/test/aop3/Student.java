@@ -1,4 +1,4 @@
-package com.test.aop;
+package com.test.aop3;
 
 public class Student {
 private String name;
@@ -47,10 +47,6 @@ System.out.println("학번:" + getHakbun());
 System.out.println("나이:" + getAge());
 System.out.println("학년:" + getGrade());
 
-try {
-	System.out.println(10/0);
-}catch (Exception e) {
-}
-}
 }
 
+}
